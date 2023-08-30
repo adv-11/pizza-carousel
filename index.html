@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizza Carousel</title>
+    <link rel="icon" href="c.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <button class="slide-l" id="left"><i class="fa-solid fa-caret-left fa-2xl" style="color: #fff;"></i></button>
+        <div class="pie-carousel">
+
+            <img src="pie1.jpg" alt="Pie 1" class="pie" id="pieImage">
+
+        </div>
+        <button class="slide-r" id="right"><i class="fa-solid fa-caret-right fa-2xl" style="color: #fff;"></i></button>
+        <script src="https://kit.fontawesome.com/47247e435d.js" crossorigin="anonymous"></script>
+    </div>
+
+    <div class="btn-ctr">
+        <button onclick="changePie(1)" class="btn">Mushroom Olive</button>
+        <button onclick="changePie(2)" class="btn">Pepperoni</button>
+        <button onclick="changePie(3)" class="btn">Cheese Overload</button>
+        <button onclick="changePie(4)" class="btn">Veggie Delight</button>
+        <button onclick="changePie(5)" class="btn">Tomato Olive</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
